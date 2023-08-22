@@ -11,7 +11,10 @@ const camera = new THREE.PerspectiveCamera(
   1000 // Far
 );
 
-camera.position.z = 5;
+camera.position.z = 5; 
+// This was one of reasons for the bug. You are not seeing the cube because the camera is at the same position as the cube by default, i.e., at (0, 0, 0. 
+// This is a common mistake when starting with Three.js. All the objects dragged at the scene are at (0, 0, 0) by default. 
+// So, if you don't move the camera, you won't see anything becaue they are overlapping each other.
 
 // Setting up a renderer
 const renderer = new THREE.WebGLRenderer();
@@ -28,7 +31,7 @@ scene.add(cube);
 const light = new THREE.AmbientLight(0x404040); // soft white light
 scene.add(light);
 
-// render the scene
+// render the scene. This is the second reason why you are not seeing the cube. You are not rendering the scene.
 // The function animate is called over and over again, once per frame.
 // Once per frame means, as fast as possible. Usually, this is 60 frames per second, but it depends on the browser and the device.
 // Meaning, if you want to animate something, you have to change the properties of the cube inside the animate function.
