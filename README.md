@@ -5,8 +5,11 @@
 
 [(https://spinspinaway.netlify.app)]
 
-The challenge was to create a sphere and a cube side by side using Three.js: a Javascript animation library. Pretty straightforward and simple right? Yes and No.
-Anyway, I ended up doing more than what I was challenged to do because three.js is just that fun! So I ended up using MeshNormalMaterial instead of MeshBasicMaterial after experimenting. 
+My mentor, André Elias *(thank you for the challenge)*, gave me a challenge to create a sphere and a cube side by side using Three.js: a Javascript animation library. Pretty straightforward and simple right? Yes and No.
+Anyway, I ended up doing more than what I was challenged to do because Three.js is just that fun! 
+
+*Side note: Thanks to Emilian Kasemi as well, for helping me set up Three.js.*
+
 
 ## What extra thing did I do
 - Set up Orbit controls so you can drag, zoom in, zoom out, and rotate the meshes (cube and sphere), as you will
