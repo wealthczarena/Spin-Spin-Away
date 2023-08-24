@@ -66,7 +66,7 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clone repository
-git clone https://github.com/wealthczarena/Spin-Spin-Away
+git clone https://github.com/wealthczarena/Spin-Spin-Away/tree/master
 
 # enter your folder name
 cd your-folder-name
