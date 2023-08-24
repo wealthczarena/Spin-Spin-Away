@@ -47,8 +47,8 @@ Anyway, I ended up doing more than what I was challenged to do because three.js 
 - https://iconmonstr.com/
 
 
-## Desktop Layout
-![Web 1](https://github.com/wealthczarena/assets/blob/main/images/hero-web.png)
+## Layout
+![Web 1](https://github.com/wealthczarena/assets/blob/main/images/ssaway.png)
 
 
 ## Developer's Log
