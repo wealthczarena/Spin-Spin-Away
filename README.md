@@ -4,6 +4,7 @@
 ## About the project
 
 [(https://spinspinaway.netlify.app)]
+
 *PS. Because of a bug, the 3D meshes and GSAP animations aren't showing. Currently working on it so in the meantime, kindly check it out on my Codepen instead: (https://codepen.io/Nushen/full/qBLbBBG)*
 
 My mentor, André Elias *(thank you for the challenge)*, gave me a challenge to create a sphere and a cube side by side using Three.js: a Javascript animation library. Pretty straightforward and simple right? Yes and No.
